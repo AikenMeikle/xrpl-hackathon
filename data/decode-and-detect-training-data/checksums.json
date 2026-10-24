@@ -1,0 +1,14 @@
+{
+  "README.md": "f7ba5e51d90a10911bd0376854db49e9de44e466aca31e7ee8bfbd70b645173f",
+  "payments.py": "611d7d59b051bf9bcc72fe8c3ee76f440a4a3f1d4aca7ea05efa4bda8979b633",
+  "train/blocks.parquet": "346ea2304ed30d2f9860163eff47b829a6bab1bc3d615a5dce0528717e9ffeba",
+  "train/labels.csv": "48536b768622b0dc61ee487f750c874f1d9dbc820fc1c30ccc1af87db395a94b",
+  "train/market_rates.csv": "cf596d85265294c9faa9bd707739c14d4e11d20a6e3ce4e3b507488c79ed6458",
+  "train/transactions.parquet": "d592b91c766a408fb7da5c54c04f36f358dcf137ba6ef870575f22e0900ff783",
+  "train/transfers.parquet": "658bbb2d4b3bc7724dbcc7e8ad4b80d344b01fcc2ce4875b75880fa065c39c18",
+  "validation/blocks.parquet": "1564f4e666d51cfa67886ddb29e7287f4395959fe459206b9a19fe83d88da32e",
+  "validation/market_rates.csv": "a7ca1a281cbcde61becdef65a89f44fe6880b7dafb55a47c5ce09ac94d038669",
+  "validation/transactions.parquet": "f6b2134fcd518da41990aa17f43b608f00718d6a949f53a7472adf0fa3b7f752",
+  "validation/transfers.parquet": "0f42451783cd08850c11c9dbf7ff4b58378cb1b5c4f6d1c00f040680b993b443",
+  "starter_notebook.ipynb": "3bffc46eff267f46abe3a2153a8c8d13675ae7d76b7929d0bebf3644185eb592"
+}
