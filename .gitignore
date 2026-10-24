@@ -223,3 +223,13 @@ __marimo__/
 data/
 *.parquet
 predictions.csv
+
+# pipeline outputs
+artifacts/*.parquet
+artifacts/*.joblib
+artifacts/*.pt
+artifacts/*.log
+submission/*.csv
+submission/*.zip
+dist/
+

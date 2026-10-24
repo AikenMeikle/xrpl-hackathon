@@ -1,0 +1,24 @@
+{
+  "stage1_oof_scenario": 0.5421206563287112,
+  "stage1_folds": [
+    0.5647117405729699,
+    0.5054813725727724,
+    0.5561688558403916
+  ],
+  "stage2_oof_scenario": null,
+  "stage2_folds": null,
+  "stage2_best_iterations": [
+    500
+  ],
+  "verify": {
+    "file": "C:\\Users\\anass\\OneDrive\\Desktop\\xrpl-hackathon\\submission\\predictions_stage2_500.csv",
+    "rows": 40101,
+    "bytes": 3309910,
+    "unique_scores": 40101,
+    "min": 2.91163547051e-05,
+    "max": 0.997206861247,
+    "tie_fraction": 0.0,
+    "ok": true,
+    "problems": []
+  }
+}

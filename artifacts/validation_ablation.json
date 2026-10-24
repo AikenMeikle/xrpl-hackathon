@@ -1,0 +1,19 @@
+{
+  "ablation": [
+    {
+      "config": "organiser_baseline_logreg (random 20% holdout)",
+      "ap": 0.24567638296775274,
+      "n_features": 11
+    },
+    {
+      "config": "+basic_transaction",
+      "ap": 0.11435112825716083,
+      "fold_ap": [
+        0.10811389756989549,
+        0.11676948076230437,
+        0.11817000643928267
+      ],
+      "n_features": 52
+    }
+  ]
+}

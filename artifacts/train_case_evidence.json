@@ -1,0 +1,1089 @@
+[
+ {
+  "transaction_hash": "DC55BD3F55FDB7D7375D34D1A4329F48EC00F8E377CD13BC3F61C5520724EAF6",
+  "score": 0.9997826599704217,
+  "rank": 3,
+  "timestamp_utc": "2026-09-01 22:46:36+00:00",
+  "source_wallet": "rwzX1CqqthVrfw5tKerzQ8C8J2pgjnWzr3",
+  "destination_wallet": "r36dufKL4HB1Bje5a5sbJQjXFrjEKp1NTb",
+  "paid": {
+   "asset": "r99vy4o5fXhC3PwEXEpnc1f9Mss4aCzYBW:USD",
+   "quantity": 117.688884,
+   "usd": 117.84258568250401
+  },
+  "delivered": {
+   "asset": "rLeMq5iFyEhgHLfBxeu4eRQWEGGdeL8hXK:EUR",
+   "quantity": 106.829963,
+   "usd": 117.279642660808
+  },
+  "flags": {
+   "conversion": true,
+   "legs": 2,
+   "partial_payment": false,
+   "missing_rate": false,
+   "fee_xrp": 1e-05
+  },
+  "top_drivers": [
+   {
+    "feature": "win_dst_in_deg_10m",
+    "value": 6.0,
+    "shap": 1.984857775208794
+   },
+   {
+    "feature": "sg_branch_holdtime_median_h",
+    "value": 0.0855555534362793,
+    "shap": 1.8179698846043952
+   },
+   {
+    "feature": "full_edge_share_of_pair_usd",
+    "value": 1.0,
+    "shap": 1.8015482020781597
+   },
+   {
+    "feature": "win_dst_in_n_10m",
+    "value": 6.0,
+    "shap": 0.9385478018214067
+   },
+   {
+    "feature": "match_bwd_batch_q_1h",
+    "value": 0.4919891357421875,
+    "shap": 0.6081098022711847
+   },
+   {
+    "feature": "sg_middlemen_count",
+    "value": 6.0,
+    "shap": 0.5894025462208315
+   },
+   {
+    "feature": "tx_hour_of_day",
+    "value": 22.0,
+    "shap": 0.5574611245583736
+   },
+   {
+    "feature": "full_pair_tx",
+    "value": 1.0,
+    "shap": 0.5279846981798741
+   }
+  ],
+  "motifs": {
+   "fan_in": 0.9202883243560791,
+   "fan_out": 1.0,
+   "scatter_gather_middlemen": 6.0,
+   "gather_scatter_score_6h": 4.457813262939453,
+   "cycle_count": 0.0,
+   "chain_longest_hops": 4.0,
+   "bipartite_rectangles": 42.0,
+   "irregular_complexity": 11.997570991516113,
+   "forward_match_q": 0.008914700709283352,
+   "backward_match_q": 0.7750133275985718
+  },
+  "witnesses": {
+   "forward_match": [
+    "DC55BD3F55FDB7D7375D34D1A4329F48EC00F8E377CD13BC3F61C5520724EAF6",
+    "204AD09E1FBF64D3A914C788420F6DB0BC52B467647AD4184A0496E3A3340EA9"
+   ],
+   "backward_match": [
+    "CF4B1E7E2641E4AA5B3EA1EDD14458CC06CF4672C9BA67BC8FC83171690952E9",
+    "DC55BD3F55FDB7D7375D34D1A4329F48EC00F8E377CD13BC3F61C5520724EAF6"
+   ],
+   "scatter_gather": [
+    "234A1A6D7BB8C08DBFFAA774337C489680E3871C3E229F4E863FD8B0AD184FD1",
+    "245366B441540D834E9651C44D5C1EC23B5F523AC1A62D79483294411790F249",
+    "D8B791A1B489BA470E37D51D842AA78458A6577AC4DBD8665192E014E2209598",
+    "9B2D60B43753D2021C8B085CC34F45683AC51D71E33D0C981E79FE022BEC4BEB",
+    "70B3E21BE1470C70011ED76E5A68F351A7BC62288DFA0D7809A3969686CA800D",
+    "7E5C34410F51393A5E94F81350BEB46FEB780B127067CA240D014BC93B5FB874",
+    "539B6B51A4E19AD796B32E9E9F34B556CF724666FF4AC8D3525582087F8391D5",
+    "DC55BD3F55FDB7D7375D34D1A4329F48EC00F8E377CD13BC3F61C5520724EAF6",
+    "300A96B24C5BB47ACBFCA4DCB9A97FA13D04255BA36841D61F8B88F5EC6E7A7C",
+    "A6E5BC363B91F8B4B65DD4E45A50161EDED89795F72E33C6A7B5DCED6AC897C9",
+    "DC5496C234EAF6F5578F9B38EC0DA7EF550C429D1835DECEFB05F1D2BA6677DA",
+    "EED15F91EABF1415E702EF64797622D29FCF9E77F6EA41A7632705F7D97A4FF5"
+   ],
+   "chain": {
+    "motif": "chain",
+    "hops": 4,
+    "hashes": [
+     "ADC8CC15E14FCFE67AF711E92D8182E61846701290CF8D746A2FC7049E822060",
+     "3B96791B8D1B3A125167D1AEDCA3B10E81307363AAFAFE3C7B18F37E6F72AA90",
+     "CF4B1E7E2641E4AA5B3EA1EDD14458CC06CF4672C9BA67BC8FC83171690952E9",
+     "DC55BD3F55FDB7D7375D34D1A4329F48EC00F8E377CD13BC3F61C5520724EAF6"
+    ]
+   }
+  },
+  "source_summary": {
+   "out_tx": 64.0,
+   "in_tx": 35.0,
+   "out_usd": 10081.775390625,
+   "in_usd": 8350.2177734375,
+   "out_deg": 34.0,
+   "in_deg": 24.0,
+   "active_span_h": 156.42666625976562,
+   "pass_through": 0.8282487988471985,
+   "one_use_sender_frac": 0.625,
+   "hub_likeness": 20.628097534179688
+  },
+  "destination_summary": {
+   "out_tx": 89.0,
+   "in_tx": 46.0,
+   "out_usd": 6164.14404296875,
+   "in_usd": 6463.302734375,
+   "out_deg": 31.0,
+   "in_deg": 29.0,
+   "active_span_h": 147.91888427734375,
+   "pass_through": 0.9537142515182495,
+   "one_use_sender_frac": 0.7241379022598267,
+   "hub_likeness": 20.5683536529541
+  },
+  "model_version": "lgbm_final + optional gnn blend (see artifacts/manifest.json)",
+  "status": "flagged for review (synthetic data; no identity or criminality is asserted)",
+  "label": {
+   "is_suspicious": 1,
+   "family": "multi_stage",
+   "difficulty": "easy"
+  }
+ },
+ {
+  "transaction_hash": "A6E5BC363B91F8B4B65DD4E45A50161EDED89795F72E33C6A7B5DCED6AC897C9",
+  "score": 0.9998680428500031,
+  "rank": 2,
+  "timestamp_utc": "2026-09-01 22:48:00+00:00",
+  "source_wallet": "rBczUnWCtiuSBsUYueMayqpEm7GkFvyLq2",
+  "destination_wallet": "r36dufKL4HB1Bje5a5sbJQjXFrjEKp1NTb",
+  "paid": {
+   "asset": "0x1111222211112222111122221111222211112222:XRP",
+   "quantity": 163.863367,
+   "usd": 105.97633852011201
+  },
+  "delivered": {
+   "asset": "rLeMq5iFyEhgHLfBxeu4eRQWEGGdeL8hXK:EUR",
+   "quantity": 96.245054,
+   "usd": 105.659360202064
+  },
+  "flags": {
+   "conversion": true,
+   "legs": 2,
+   "partial_payment": false,
+   "missing_rate": false,
+   "fee_xrp": 1e-05
+  },
+  "top_drivers": [
+   {
+    "feature": "sg_branch_holdtime_median_h",
+    "value": 0.0855555534362793,
+    "shap": 1.9016620211861357
+   },
+   {
+    "feature": "win_dst_in_deg_10m",
+    "value": 6.0,
+    "shap": 1.8636540322176645
+   },
+   {
+    "feature": "full_edge_share_of_pair_usd",
+    "value": 1.0,
+    "shap": 1.8210365216001547
+   },
+   {
+    "feature": "win_dst_in_n_10m",
+    "value": 6.0,
+    "shap": 0.9521040035628905
+   },
+   {
+    "feature": "match_bwd_batch_q_1h",
+    "value": 0.937425434589386,
+    "shap": 0.7683842597819098
+   },
+   {
+    "feature": "asof_src_best_amount_gap_10m",
+    "value": 0.013007489033043385,
+    "shap": 0.7083510964304954
+   },
+   {
+    "feature": "sg_middlemen_count",
+    "value": 6.0,
+    "shap": 0.5666858890554715
+   },
+   {
+    "feature": "win_dst_in_share_10m",
+    "value": 0.19737608730793,
+    "shap": 0.5247530120160612
+   }
+  ],
+  "motifs": {
+   "fan_in": 0.9202883243560791,
+   "fan_out": 1.0,
+   "scatter_gather_middlemen": 6.0,
+   "gather_scatter_score_6h": 4.457813262939453,
+   "cycle_count": 0.0,
+   "chain_longest_hops": 3.0,
+   "bipartite_rectangles": 49.0,
+   "irregular_complexity": 11.810626983642578,
+   "forward_match_q": 0.015020349994301796,
+   "backward_match_q": 0.937425434589386
+  },
+  "witnesses": {
+   "forward_match": [
+    "A6E5BC363B91F8B4B65DD4E45A50161EDED89795F72E33C6A7B5DCED6AC897C9",
+    "204AD09E1FBF64D3A914C788420F6DB0BC52B467647AD4184A0496E3A3340EA9"
+   ],
+   "backward_match": [
+    "9B2D60B43753D2021C8B085CC34F45683AC51D71E33D0C981E79FE022BEC4BEB",
+    "A6E5BC363B91F8B4B65DD4E45A50161EDED89795F72E33C6A7B5DCED6AC897C9"
+   ],
+   "scatter_gather": [
+    "234A1A6D7BB8C08DBFFAA774337C489680E3871C3E229F4E863FD8B0AD184FD1",
+    "245366B441540D834E9651C44D5C1EC23B5F523AC1A62D79483294411790F249",
+    "D8B791A1B489BA470E37D51D842AA78458A6577AC4DBD8665192E014E2209598",
+    "9B2D60B43753D2021C8B085CC34F45683AC51D71E33D0C981E79FE022BEC4BEB",
+    "70B3E21BE1470C70011ED76E5A68F351A7BC62288DFA0D7809A3969686CA800D",
+    "7E5C34410F51393A5E94F81350BEB46FEB780B127067CA240D014BC93B5FB874",
+    "539B6B51A4E19AD796B32E9E9F34B556CF724666FF4AC8D3525582087F8391D5",
+    "DC55BD3F55FDB7D7375D34D1A4329F48EC00F8E377CD13BC3F61C5520724EAF6",
+    "300A96B24C5BB47ACBFCA4DCB9A97FA13D04255BA36841D61F8B88F5EC6E7A7C",
+    "A6E5BC363B91F8B4B65DD4E45A50161EDED89795F72E33C6A7B5DCED6AC897C9",
+    "DC5496C234EAF6F5578F9B38EC0DA7EF550C429D1835DECEFB05F1D2BA6677DA",
+    "EED15F91EABF1415E702EF64797622D29FCF9E77F6EA41A7632705F7D97A4FF5"
+   ],
+   "chain": {
+    "motif": "chain",
+    "hops": 3,
+    "hashes": [
+     "A91A77A5FEB5A6E7CD5E0BF87E04A9BBD55A60C7E7234CD6704D3458B47AB2CB",
+     "9DE14B63C9287863E73DDFBB11E301381344F1DB62A95E2FE8F81D0AAE46B62D",
+     "A6E5BC363B91F8B4B65DD4E45A50161EDED89795F72E33C6A7B5DCED6AC897C9"
+    ]
+   }
+  },
+  "source_summary": {
+   "out_tx": 69.0,
+   "in_tx": 52.0,
+   "out_usd": 5820.97216796875,
+   "in_usd": 6244.04443359375,
+   "out_deg": 28.0,
+   "in_deg": 25.0,
+   "active_span_h": 143.2100067138672,
+   "pass_through": 0.9322438836097717,
+   "one_use_sender_frac": 0.47999998927116394,
+   "hub_likeness": 19.830318450927734
+  },
+  "destination_summary": {
+   "out_tx": 89.0,
+   "in_tx": 46.0,
+   "out_usd": 6164.14404296875,
+   "in_usd": 6463.302734375,
+   "out_deg": 31.0,
+   "in_deg": 29.0,
+   "active_span_h": 147.91888427734375,
+   "pass_through": 0.9537142515182495,
+   "one_use_sender_frac": 0.7241379022598267,
+   "hub_likeness": 20.5683536529541
+  },
+  "model_version": "lgbm_final + optional gnn blend (see artifacts/manifest.json)",
+  "status": "flagged for review (synthetic data; no identity or criminality is asserted)",
+  "label": {
+   "is_suspicious": 1,
+   "family": "multi_stage",
+   "difficulty": "easy"
+  }
+ },
+ {
+  "transaction_hash": "EED15F91EABF1415E702EF64797622D29FCF9E77F6EA41A7632705F7D97A4FF5",
+  "score": 0.9999572289229413,
+  "rank": 1,
+  "timestamp_utc": "2026-09-01 22:50:04+00:00",
+  "source_wallet": "r49adRcuVZbAHUkhNH13a19nY8Gi8zERn9",
+  "destination_wallet": "r36dufKL4HB1Bje5a5sbJQjXFrjEKp1NTb",
+  "paid": {
+   "asset": "r99vy4o5fXhC3PwEXEpnc1f9Mss4aCzYBW:USD",
+   "quantity": 104.200054,
+   "usd": 104.336139270524
+  },
+  "delivered": {
+   "asset": "rLeMq5iFyEhgHLfBxeu4eRQWEGGdeL8hXK:EUR",
+   "quantity": 94.764744,
+   "usd": 104.03425219910399
+  },
+  "flags": {
+   "conversion": true,
+   "legs": 3,
+   "partial_payment": false,
+   "missing_rate": false,
+   "fee_xrp": 1.5e-05
+  },
+  "top_drivers": [
+   {
+    "feature": "sg_branch_holdtime_median_h",
+    "value": 0.0855555534362793,
+    "shap": 1.9708128130041807
+   },
+   {
+    "feature": "win_dst_in_deg_10m",
+    "value": 6.0,
+    "shap": 1.8923930142519196
+   },
+   {
+    "feature": "full_edge_share_of_pair_usd",
+    "value": 1.0,
+    "shap": 1.8444348811007996
+   },
+   {
+    "feature": "win_dst_in_n_10m",
+    "value": 6.0,
+    "shap": 0.9232823432247268
+   },
+   {
+    "feature": "match_bwd_batch_q_1h",
+    "value": 0.8231247663497925,
+    "shap": 0.8332743109921388
+   },
+   {
+    "feature": "asof_src_best_amount_gap_10m",
+    "value": 0.03818148747086525,
+    "shap": 0.7385487019854173
+   },
+   {
+    "feature": "sg_middlemen_count",
+    "value": 6.0,
+    "shap": 0.5583445369176768
+   },
+   {
+    "feature": "fanin_last_deposit_to_exit_sec",
+    "value": 48.0,
+    "shap": 0.539597031147675
+   }
+  ],
+  "motifs": {
+   "fan_in": 0.9202883243560791,
+   "fan_out": 1.0,
+   "scatter_gather_middlemen": 6.0,
+   "gather_scatter_score_6h": 4.457813262939453,
+   "cycle_count": 0.0,
+   "chain_longest_hops": 3.0,
+   "bipartite_rectangles": 42.0,
+   "irregular_complexity": 11.739263534545898,
+   "forward_match_q": 0.016230734065175056,
+   "backward_match_q": 0.8231247663497925
+  },
+  "witnesses": {
+   "forward_match": [
+    "EED15F91EABF1415E702EF64797622D29FCF9E77F6EA41A7632705F7D97A4FF5",
+    "204AD09E1FBF64D3A914C788420F6DB0BC52B467647AD4184A0496E3A3340EA9"
+   ],
+   "backward_match": [
+    "7E5C34410F51393A5E94F81350BEB46FEB780B127067CA240D014BC93B5FB874",
+    "EED15F91EABF1415E702EF64797622D29FCF9E77F6EA41A7632705F7D97A4FF5"
+   ],
+   "scatter_gather": [
+    "234A1A6D7BB8C08DBFFAA774337C489680E3871C3E229F4E863FD8B0AD184FD1",
+    "245366B441540D834E9651C44D5C1EC23B5F523AC1A62D79483294411790F249",
+    "D8B791A1B489BA470E37D51D842AA78458A6577AC4DBD8665192E014E2209598",
+    "9B2D60B43753D2021C8B085CC34F45683AC51D71E33D0C981E79FE022BEC4BEB",
+    "70B3E21BE1470C70011ED76E5A68F351A7BC62288DFA0D7809A3969686CA800D",
+    "7E5C34410F51393A5E94F81350BEB46FEB780B127067CA240D014BC93B5FB874",
+    "539B6B51A4E19AD796B32E9E9F34B556CF724666FF4AC8D3525582087F8391D5",
+    "DC55BD3F55FDB7D7375D34D1A4329F48EC00F8E377CD13BC3F61C5520724EAF6",
+    "300A96B24C5BB47ACBFCA4DCB9A97FA13D04255BA36841D61F8B88F5EC6E7A7C",
+    "A6E5BC363B91F8B4B65DD4E45A50161EDED89795F72E33C6A7B5DCED6AC897C9",
+    "DC5496C234EAF6F5578F9B38EC0DA7EF550C429D1835DECEFB05F1D2BA6677DA",
+    "EED15F91EABF1415E702EF64797622D29FCF9E77F6EA41A7632705F7D97A4FF5"
+   ],
+   "chain": {
+    "motif": "chain",
+    "hops": 3,
+    "hashes": [
+     "537E626DC35CA1C35AFD0970B58FAFE3E6F50E16A66D7C3D9A60A516FEA768AF",
+     "7E5C34410F51393A5E94F81350BEB46FEB780B127067CA240D014BC93B5FB874",
+     "EED15F91EABF1415E702EF64797622D29FCF9E77F6EA41A7632705F7D97A4FF5"
+    ]
+   }
+  },
+  "source_summary": {
+   "out_tx": 69.0,
+   "in_tx": 50.0,
+   "out_usd": 7819.154296875,
+   "in_usd": 6957.89892578125,
+   "out_deg": 32.0,
+   "in_deg": 33.0,
+   "active_span_h": 145.81333923339844,
+   "pass_through": 0.8898531198501587,
+   "one_use_sender_frac": 0.6363636255264282,
+   "hub_likeness": 20.90286636352539
+  },
+  "destination_summary": {
+   "out_tx": 89.0,
+   "in_tx": 46.0,
+   "out_usd": 6164.14404296875,
+   "in_usd": 6463.302734375,
+   "out_deg": 31.0,
+   "in_deg": 29.0,
+   "active_span_h": 147.91888427734375,
+   "pass_through": 0.9537142515182495,
+   "one_use_sender_frac": 0.7241379022598267,
+   "hub_likeness": 20.5683536529541
+  },
+  "model_version": "lgbm_final + optional gnn blend (see artifacts/manifest.json)",
+  "status": "flagged for review (synthetic data; no identity or criminality is asserted)",
+  "label": {
+   "is_suspicious": 1,
+   "family": "multi_stage",
+   "difficulty": "easy"
+  }
+ },
+ {
+  "transaction_hash": "F5ADB603C184AFA156AC7E53C0FCF273010B2F176819E25EF6BA3534AD8EFC5F",
+  "score": 0.9976809967241679,
+  "rank": 39,
+  "timestamp_utc": "2026-09-02 12:13:00+00:00",
+  "source_wallet": "rwSFoxPsFfAigpESMySgMwJq5nMBm9fuob",
+  "destination_wallet": "rNwKfEVCvzHcU3wJTUJDkmC5q6dEQhAFk9",
+  "paid": {
+   "asset": "r99vy4o5fXhC3PwEXEpnc1f9Mss4aCzYBW:GBP",
+   "quantity": 103.632484,
+   "usd": 136.348015608992
+  },
+  "delivered": {
+   "asset": "rLeMq5iFyEhgHLfBxeu4eRQWEGGdeL8hXK:USD",
+   "quantity": 133.347196,
+   "usd": 134.847085260608
+  },
+  "flags": {
+   "conversion": true,
+   "legs": 3,
+   "partial_payment": false,
+   "missing_rate": false,
+   "fee_xrp": 1.5e-05
+  },
+  "top_drivers": [
+   {
+    "feature": "full_edge_share_of_pair_usd",
+    "value": 1.0,
+    "shap": 1.5833661920896005
+   },
+   {
+    "feature": "irr_community_volume_conc_6h",
+    "value": 0.01603756658732891,
+    "shap": 0.7154959726777458
+   },
+   {
+    "feature": "full_pair_tx",
+    "value": 1.0,
+    "shap": 0.7105718778018946
+   },
+   {
+    "feature": "fanout_equal_size_frac_10m",
+    "value": 0.3333333432674408,
+    "shap": 0.7049608183582896
+   },
+   {
+    "feature": "win_dst_in_share_10m",
+    "value": 0.14353394508361816,
+    "shap": 0.5552449544776209
+   },
+   {
+    "feature": "full_src_temporal_entropy_h",
+    "value": 4.14833927154541,
+    "shap": -0.461673810039615
+   },
+   {
+    "feature": "asof_src_secs_since_last_out",
+    "value": 83.0,
+    "shap": 0.3503609875732581
+   },
+   {
+    "feature": "tx_hour_of_day",
+    "value": 12.0,
+    "shap": -0.3252696507175812
+   }
+  ],
+  "motifs": {
+   "fan_in": 0.0,
+   "fan_out": 3.0,
+   "scatter_gather_middlemen": 4.0,
+   "gather_scatter_score_6h": 0.06736799329519272,
+   "cycle_count": 0.0,
+   "chain_longest_hops": 4.0,
+   "bipartite_rectangles": 30.0,
+   "irregular_complexity": 11.3604736328125,
+   "forward_match_q": 0.03210746496915817,
+   "backward_match_q": 0.6967312097549438
+  },
+  "witnesses": {
+   "forward_match": [
+    "F5ADB603C184AFA156AC7E53C0FCF273010B2F176819E25EF6BA3534AD8EFC5F",
+    "67821CE323274D972BF74173E312D508F51C868F527C1B967385C919C3DE3F1F"
+   ],
+   "backward_match": [
+    "18364991BCCC2DC11D4EC39B5B5344A648A7F83A8BED45A87381A8F41A162A30",
+    "F5ADB603C184AFA156AC7E53C0FCF273010B2F176819E25EF6BA3534AD8EFC5F"
+   ],
+   "chain": {
+    "motif": "chain",
+    "hops": 4,
+    "hashes": [
+     "0C73A2C94D733B0A2654815837EF1A70741283CFB2935D1CC1914141B7F0C265",
+     "5174917802A3E1CC729ECCE836C3F7F55E34674D2917545F71A4291734238582",
+     "E34E52DE28D2B7269802D713675C53A6489D59192F68266158F3B3F020C2040A",
+     "F5ADB603C184AFA156AC7E53C0FCF273010B2F176819E25EF6BA3534AD8EFC5F"
+    ]
+   }
+  },
+  "source_summary": {
+   "out_tx": 45.0,
+   "in_tx": 57.0,
+   "out_usd": 5870.04443359375,
+   "in_usd": 10783.1513671875,
+   "out_deg": 29.0,
+   "in_deg": 32.0,
+   "active_span_h": 161.35333251953125,
+   "pass_through": 0.5443719029426575,
+   "one_use_sender_frac": 0.65625,
+   "hub_likeness": 21.00618553161621
+  },
+  "destination_summary": {
+   "out_tx": 29.0,
+   "in_tx": 51.0,
+   "out_usd": 3707.398193359375,
+   "in_usd": 6042.06689453125,
+   "out_deg": 19.0,
+   "in_deg": 32.0,
+   "active_span_h": 147.35110473632812,
+   "pass_through": 0.6135976314544678,
+   "one_use_sender_frac": 0.6875,
+   "hub_likeness": 19.754566192626953
+  },
+  "model_version": "lgbm_final + optional gnn blend (see artifacts/manifest.json)",
+  "status": "flagged for review (synthetic data; no identity or criminality is asserted)",
+  "label": {
+   "is_suspicious": 0,
+   "family": "bipartite",
+   "difficulty": "normal"
+  }
+ },
+ {
+  "transaction_hash": "5E29F6F4E779FBC0D8B082DC27A5D763CCFA6850F1D78125F5DF77B34654E267",
+  "score": 0.9988928787536092,
+  "rank": 23,
+  "timestamp_utc": "2026-09-04 13:47:40+00:00",
+  "source_wallet": "rniHNGgZNvhZTSRxb8kZU9mo3Cdi7a8h2a",
+  "destination_wallet": "rPvCYEjgGx9GYLDEhxKLr8RTWcaQxuF6M3",
+  "paid": {
+   "asset": "r99vy4o5fXhC3PwEXEpnc1f9Mss4aCzYBW:GBP",
+   "quantity": 22.642446,
+   "usd": 29.713478103786002
+  },
+  "delivered": {
+   "asset": "r99vy4o5fXhC3PwEXEpnc1f9Mss4aCzYBW:GBP",
+   "quantity": 22.642446,
+   "usd": 29.713478103786002
+  },
+  "flags": {
+   "conversion": false,
+   "legs": 1,
+   "partial_payment": false,
+   "missing_rate": false,
+   "fee_xrp": 1.5e-05
+  },
+  "top_drivers": [
+   {
+    "feature": "full_edge_share_of_pair_usd",
+    "value": 1.0,
+    "shap": 1.3656222110949057
+   },
+   {
+    "feature": "fanout_equal_size_frac_10m",
+    "value": 0.20000000298023224,
+    "shap": 0.9636064782635623
+   },
+   {
+    "feature": "win_src_out_n_10m",
+    "value": 5.0,
+    "shap": 0.8422039854847531
+   },
+   {
+    "feature": "fwd_dst_best_amount_gap_1h",
+    "value": 0.05012042447924614,
+    "shap": 0.8180546587887398
+   },
+   {
+    "feature": "fwd_dst_best_amount_gap_10m",
+    "value": 0.05012042447924614,
+    "shap": 0.7636925017248288
+   },
+   {
+    "feature": "full_pair_tx",
+    "value": 1.0,
+    "shap": 0.5704588909837117
+   },
+   {
+    "feature": "fwd_dst_out_to_in_ratio_10m",
+    "value": 0.4749397933483124,
+    "shap": 0.4166242170937794
+   },
+   {
+    "feature": "match_fwd_batch_q_1h",
+    "value": 0.7732906341552734,
+    "shap": 0.3617547687806095
+   }
+  ],
+  "motifs": {
+   "fan_in": 0.00017385435057803988,
+   "fan_out": 5.0,
+   "scatter_gather_middlemen": 5.0,
+   "gather_scatter_score_6h": 3.673133611679077,
+   "cycle_count": 0.0,
+   "chain_longest_hops": 5.0,
+   "bipartite_rectangles": 37.0,
+   "irregular_complexity": 11.889496803283691,
+   "forward_match_q": 0.7732906341552734,
+   "backward_match_q": 0.9819471836090088
+  },
+  "witnesses": {
+   "forward_match": [
+    "5E29F6F4E779FBC0D8B082DC27A5D763CCFA6850F1D78125F5DF77B34654E267",
+    "29C7E7476EAF417FCC3F490E0C5C8922DB6E4457FFD7A2475555A5C7601271A1"
+   ],
+   "backward_match": [
+    "227ED19B3466991E9C94F16E2310B7E72628BA74F509E5F90BB312014AF869F5",
+    "5E29F6F4E779FBC0D8B082DC27A5D763CCFA6850F1D78125F5DF77B34654E267"
+   ],
+   "chain": {
+    "motif": "chain",
+    "hops": 5,
+    "hashes": [
+     "C731711B4E9A6E5970910CC315C320EB57395C89F16D722ECAB84E4D4EE80AF2",
+     "201425B8EA4987F306253EF95C0C7AA1607FFD21E77C6F821D7D26D60D937C5D",
+     "47DAC68CEEA37FE6AA39430F77631FBD982B46FD59A3F7D88881FF9FE025C929",
+     "5E29F6F4E779FBC0D8B082DC27A5D763CCFA6850F1D78125F5DF77B34654E267",
+     "29C7E7476EAF417FCC3F490E0C5C8922DB6E4457FFD7A2475555A5C7601271A1"
+    ]
+   }
+  },
+  "source_summary": {
+   "out_tx": 62.0,
+   "in_tx": 56.0,
+   "out_usd": 5233.92724609375,
+   "in_usd": 5184.263671875,
+   "out_deg": 35.0,
+   "in_deg": 28.0,
+   "active_span_h": 148.07444763183594,
+   "pass_through": 0.9905112385749817,
+   "one_use_sender_frac": 0.6785714030265808,
+   "hub_likeness": 20.812904357910156
+  },
+  "destination_summary": {
+   "out_tx": 63.0,
+   "in_tx": 60.0,
+   "out_usd": 7076.53857421875,
+   "in_usd": 7383.8408203125,
+   "out_deg": 33.0,
+   "in_deg": 38.0,
+   "active_span_h": 154.3633270263672,
+   "pass_through": 0.9583817720413208,
+   "one_use_sender_frac": 0.6842105388641357,
+   "hub_likeness": 21.579057693481445
+  },
+  "model_version": "lgbm_final + optional gnn blend (see artifacts/manifest.json)",
+  "status": "flagged for review (synthetic data; no identity or criminality is asserted)",
+  "label": {
+   "is_suspicious": 0,
+   "family": "fan_out_in",
+   "difficulty": "normal"
+  }
+ },
+ {
+  "transaction_hash": "488894CFEED4BD0FC9356132C9D7D5C2705FD3AD9D6AFFD8F1CB9E1B63CC02CB",
+  "score": 0.9981964043510888,
+  "rank": 36,
+  "timestamp_utc": "2026-09-04 13:50:04+00:00",
+  "source_wallet": "rniHNGgZNvhZTSRxb8kZU9mo3Cdi7a8h2a",
+  "destination_wallet": "rponkY7bge6Q659B84XAogBaLJzCQZcMcN",
+  "paid": {
+   "asset": "r99vy4o5fXhC3PwEXEpnc1f9Mss4aCzYBW:GBP",
+   "quantity": 18.211423,
+   "usd": 23.898686500093003
+  },
+  "delivered": {
+   "asset": "r99vy4o5fXhC3PwEXEpnc1f9Mss4aCzYBW:GBP",
+   "quantity": 18.211423,
+   "usd": 23.898686500093003
+  },
+  "flags": {
+   "conversion": false,
+   "legs": 1,
+   "partial_payment": false,
+   "missing_rate": false,
+   "fee_xrp": 1e-05
+  },
+  "top_drivers": [
+   {
+    "feature": "full_edge_share_of_pair_usd",
+    "value": 1.0,
+    "shap": 1.3228388591726956
+   },
+   {
+    "feature": "fanout_equal_size_frac_10m",
+    "value": 0.20000000298023224,
+    "shap": 1.0238880133957067
+   },
+   {
+    "feature": "win_src_out_n_10m",
+    "value": 5.0,
+    "shap": 0.9689637875207323
+   },
+   {
+    "feature": "fwd_dst_best_amount_gap_1h",
+    "value": 0.09747003018856049,
+    "shap": 0.7687641448248003
+   },
+   {
+    "feature": "asof_src_secs_since_last_out",
+    "value": 31.0,
+    "shap": 0.7622565298389337
+   },
+   {
+    "feature": "fwd_dst_best_amount_gap_10m",
+    "value": 0.09747003018856049,
+    "shap": 0.7093699066136433
+   },
+   {
+    "feature": "full_pair_tx",
+    "value": 1.0,
+    "shap": 0.5755578394323823
+   },
+   {
+    "feature": "fanout_recipient_forward_frac_1h",
+    "value": 0.800000011920929,
+    "shap": 0.3707637672430778
+   }
+  ],
+  "motifs": {
+   "fan_in": 0.02548644132912159,
+   "fan_out": 5.0,
+   "scatter_gather_middlemen": 5.0,
+   "gather_scatter_score_6h": 2.1497862339019775,
+   "cycle_count": 32.0,
+   "chain_longest_hops": 8.0,
+   "bipartite_rectangles": 40.0,
+   "irregular_complexity": 11.261960983276367,
+   "forward_match_q": 0.598836362361908,
+   "backward_match_q": 0.6755837798118591
+  },
+  "witnesses": {
+   "forward_match": [
+    "488894CFEED4BD0FC9356132C9D7D5C2705FD3AD9D6AFFD8F1CB9E1B63CC02CB",
+    "B3F52FC27125985A37EE4520C53BAD5E73EE01ADF839C61B6F7E69BB50397733"
+   ],
+   "backward_match": [
+    "0FCD0BE7D1520862553A2F93FD16A55CA7B320D0041C2E0150FCC93B9CFDB4F0",
+    "488894CFEED4BD0FC9356132C9D7D5C2705FD3AD9D6AFFD8F1CB9E1B63CC02CB"
+   ],
+   "cycle": {
+    "motif": "cycle",
+    "hops": 5,
+    "hashes": [
+     "D137C85D538F453DB856E142C6E73DF80AFE10D80A05A843DDCC70203685F5CB",
+     "B36BD7C37A7C61B348B4DA7B3B87890D60EE3C80C7834D4605DC8D0AF86D08F5",
+     "E4302DA9455211FD0E07A83457EFA7EA79F2218A548CE64916E8134EE2F2FF50",
+     "488894CFEED4BD0FC9356132C9D7D5C2705FD3AD9D6AFFD8F1CB9E1B63CC02CB",
+     "D5F6BCA6F8CB43C654D1C0D2AEC87F81A4E7076A82430BE23A75FC313F117A87"
+    ],
+    "quality": 0.25464894539606636
+   }
+  },
+  "source_summary": {
+   "out_tx": 62.0,
+   "in_tx": 56.0,
+   "out_usd": 5233.92724609375,
+   "in_usd": 5184.263671875,
+   "out_deg": 35.0,
+   "in_deg": 28.0,
+   "active_span_h": 148.07444763183594,
+   "pass_through": 0.9905112385749817,
+   "one_use_sender_frac": 0.6785714030265808,
+   "hub_likeness": 20.812904357910156
+  },
+  "destination_summary": {
+   "out_tx": 102.0,
+   "in_tx": 57.0,
+   "out_usd": 8740.5966796875,
+   "in_usd": 9021.435546875,
+   "out_deg": 48.0,
+   "in_deg": 33.0,
+   "active_span_h": 149.8077850341797,
+   "pass_through": 0.9688698053359985,
+   "one_use_sender_frac": 0.5757575631141663,
+   "hub_likeness": 22.104129791259766
+  },
+  "model_version": "lgbm_final + optional gnn blend (see artifacts/manifest.json)",
+  "status": "flagged for review (synthetic data; no identity or criminality is asserted)",
+  "label": {
+   "is_suspicious": 0,
+   "family": "fan_out_in",
+   "difficulty": "normal"
+  }
+ },
+ {
+  "transaction_hash": "B2C618AC7E5F5C396439E50C5A00B7B8A41F4183F9C43C748607D2D6622BE74F",
+  "score": 3.0479725859835742e-05,
+  "rank": 25354,
+  "timestamp_utc": "2026-09-06 06:56:40+00:00",
+  "source_wallet": "rnbRFknXtVJBFUWWTqgKuneFmB48gZqqh2",
+  "destination_wallet": "rsrzE7CdLUARMkuQqte8NEXgzjkSen5Uqw",
+  "paid": {
+   "asset": "rLeMq5iFyEhgHLfBxeu4eRQWEGGdeL8hXK:USD",
+   "quantity": 7.61323,
+   "usd": 7.70337825643
+  },
+  "delivered": {
+   "asset": "rLeMq5iFyEhgHLfBxeu4eRQWEGGdeL8hXK:USD",
+   "quantity": 7.61323,
+   "usd": 7.70337825643
+  },
+  "flags": {
+   "conversion": false,
+   "legs": 1,
+   "partial_payment": false,
+   "missing_rate": false,
+   "fee_xrp": 1.5e-05
+  },
+  "top_drivers": [
+   {
+    "feature": "full_edge_share_of_pair_usd",
+    "value": 1.0,
+    "shap": 0.6485678372571022
+   },
+   {
+    "feature": "full_diff_log_out_deg",
+    "value": 1.727220892906189,
+    "shap": -0.455283872994033
+   },
+   {
+    "feature": "irr_community_volume_conc_6h",
+    "value": 0.019249189645051956,
+    "shap": 0.3457031258843639
+   },
+   {
+    "feature": "full_src_nb2_total_tx",
+    "value": 131.61988830566406,
+    "shap": -0.2967036558487377
+   },
+   {
+    "feature": "full_pair_tx",
+    "value": 1.0,
+    "shap": 0.2607679884967243
+   },
+   {
+    "feature": "sg_middlemen_count",
+    "value": 5.0,
+    "shap": 0.2538051510429726
+   },
+   {
+    "feature": "win_src_out_deg_24h",
+    "value": 54.0,
+    "shap": 0.23358038694163893
+   },
+   {
+    "feature": "win_src_out_usd_10m",
+    "value": 7.703378200531006,
+    "shap": -0.19196752091558453
+   }
+  ],
+  "motifs": {
+   "fan_in": 0.0,
+   "fan_out": 3.0,
+   "scatter_gather_middlemen": 5.0,
+   "gather_scatter_score_6h": 0.3530634343624115,
+   "cycle_count": 0.0,
+   "chain_longest_hops": 2.0,
+   "bipartite_rectangles": 0.0,
+   "irregular_complexity": 14.146018981933594,
+   "forward_match_q": 0.035201381891965866,
+   "backward_match_q": 0.8240519762039185
+  },
+  "witnesses": {
+   "forward_match": [
+    "B2C618AC7E5F5C396439E50C5A00B7B8A41F4183F9C43C748607D2D6622BE74F",
+    "B0E86F22C8DDB09A41B07384F3032D1E15CA5281E6A0517A9482325DF3CBC268"
+   ],
+   "backward_match": [
+    "77D87679242C47AAB3FD6A51A173D71E6BC362CE3A00A3BFCFB657089B25D86A",
+    "B2C618AC7E5F5C396439E50C5A00B7B8A41F4183F9C43C748607D2D6622BE74F"
+   ]
+  },
+  "source_summary": {
+   "out_tx": 202.0,
+   "in_tx": 89.0,
+   "out_usd": 9013.4306640625,
+   "in_usd": 3108.179931640625,
+   "out_deg": 179.0,
+   "in_deg": 84.0,
+   "active_span_h": 165.86111450195312,
+   "pass_through": 0.3448387086391449,
+   "one_use_sender_frac": 0.9404761791229248,
+   "hub_likeness": 28.53303337097168
+  },
+  "destination_summary": {
+   "out_tx": 72.0,
+   "in_tx": 99.0,
+   "out_usd": 12018.6787109375,
+   "in_usd": 9447.16796875,
+   "out_deg": 31.0,
+   "in_deg": 37.0,
+   "active_span_h": 147.53778076171875,
+   "pass_through": 0.7860404849052429,
+   "one_use_sender_frac": 0.5135135054588318,
+   "hub_likeness": 21.17408561706543
+  },
+  "model_version": "lgbm_final + optional gnn blend (see artifacts/manifest.json)",
+  "status": "flagged for review (synthetic data; no identity or criminality is asserted)",
+  "label": {
+   "is_suspicious": 0,
+   "family": "background",
+   "difficulty": "normal"
+  }
+ },
+ {
+  "transaction_hash": "4B8F18C8B2DEA4B457C806B91FD553A7DE972911107CE57CD233595E72C4874D",
+  "score": 6.033898404572851e-05,
+  "rank": 20257,
+  "timestamp_utc": "2026-09-06 11:00:24+00:00",
+  "source_wallet": "rUf838dLTC3TXrFZUXCmWASv7HRd1wHrnC",
+  "destination_wallet": "ra7kHZ2qakPhd39PdzMhwTjrVzrNns6AWH",
+  "paid": {
+   "asset": "0x1111222211112222111122221111222211112222:XRP",
+   "quantity": 24.87587,
+   "usd": 16.19227592801
+  },
+  "delivered": {
+   "asset": "0x1111222211112222111122221111222211112222:XRP",
+   "quantity": 24.87587,
+   "usd": 16.19227592801
+  },
+  "flags": {
+   "conversion": false,
+   "legs": 1,
+   "partial_payment": false,
+   "missing_rate": false,
+   "fee_xrp": 1.2e-05
+  },
+  "top_drivers": [
+   {
+    "feature": "sg_middlemen_count",
+    "value": 9.0,
+    "shap": 0.6914122566423276
+   },
+   {
+    "feature": "full_edge_share_of_pair_usd",
+    "value": 1.0,
+    "shap": 0.6716967752004341
+   },
+   {
+    "feature": "fanout_equal_size_frac_10m",
+    "value": 0.3333333432674408,
+    "shap": 0.4282005172560945
+   },
+   {
+    "feature": "win_src_out_n_6h",
+    "value": 24.0,
+    "shap": -0.38485032554675663
+   },
+   {
+    "feature": "gs_src_both_sides_6h",
+    "value": 17.66352081298828,
+    "shap": -0.3168078713508834
+   },
+   {
+    "feature": "full_src_nb2_total_tx",
+    "value": 131.439697265625,
+    "shap": -0.2948295556922372
+   },
+   {
+    "feature": "irr_ego_density",
+    "value": 0.05261766165494919,
+    "shap": 0.28276098480251377
+   },
+   {
+    "feature": "tx_hour_of_day",
+    "value": 11.0,
+    "shap": -0.26865165335569063
+   }
+  ],
+  "motifs": {
+   "fan_in": 0.0,
+   "fan_out": 7.0,
+   "scatter_gather_middlemen": 9.0,
+   "gather_scatter_score_6h": 0.45793023705482483,
+   "cycle_count": 0.0,
+   "chain_longest_hops": 4.0,
+   "bipartite_rectangles": 0.0,
+   "irregular_complexity": 14.240684509277344,
+   "forward_match_q": 0.871690571308136,
+   "backward_match_q": 0.8068280220031738
+  },
+  "witnesses": {
+   "forward_match": [
+    "4B8F18C8B2DEA4B457C806B91FD553A7DE972911107CE57CD233595E72C4874D",
+    "AEA61B22A6A9AE731D30890179734CA887B1F2440AD2EF1354276A86E494C6DE"
+   ],
+   "backward_match": [
+    "497860203443EAC41C576CF5F5E58E6CE2E8AA79CFB130674CD31F2487BD5936",
+    "4B8F18C8B2DEA4B457C806B91FD553A7DE972911107CE57CD233595E72C4874D"
+   ],
+   "scatter_gather": [
+    "1C7C94632260CF6E41CD058AC88BD79CA42F0C30506A257D634CC451DBFEDCBF",
+    "45609092B2C34C9A9F230C5E2AACD26FC6A3CA4A9D8BD63621F1035A2F57F1B8",
+    "7E7A85A1A5D415C17786FA0BEE97AAD8D4D95816E9C56B446287ECA3DC9A9FA7",
+    "4DCD90DB4FEE1966D48725B44A5322EDE2A7B7FE07AF6102BC290D424E8F8338",
+    "7C89E87A4C8880BF31CA09A1F70F963EF7145FC29D62949CBC753335B66111EE",
+    "05C34A3612D26BC496FBCEE874729650E70CD5536CEC9086F56BDFD50ECDE830",
+    "999549A7FFE4008884A41BF58C3BA0F7D0CE5322265934E807903B1AE684601B",
+    "CE05BA27D1C78FCA6E62C3617961D65801697764BB157304574C5FF042A1572D",
+    "02626F68AC5641A564AE092169E9C38E22643F284CA336004704FE181EADA795",
+    "D91F1E274328FA65F6E9AA8598DE25C1D09B4F46928DF2123B48F65B203A3752",
+    "D8364FBA639B79201BA03E49DCFD065CDEB4294A02FE88A88F81A3EC6166CA63",
+    "4B28289AD8A6C31406041CF2FF09B898D1A95EA65D9BF27E97001721A7CD47E4"
+   ],
+   "chain": {
+    "motif": "chain",
+    "hops": 4,
+    "hashes": [
+     "E15A3BBE9B5278B19FA308C78A1975715AE10AB7AB1A2CFE1AAC3A8D9C2D1BCD",
+     "473C80A81F94FFCFA2FF3BA07262D5274A0E3918898B4B14526D8EB9399168E0",
+     "4B8F18C8B2DEA4B457C806B91FD553A7DE972911107CE57CD233595E72C4874D",
+     "40CF2EBE92D3131ED63B6BC02E18A8E51EC6354DE8342CE1F9B43476EC52E254"
+    ]
+   }
+  },
+  "source_summary": {
+   "out_tx": 185.0,
+   "in_tx": 88.0,
+   "out_usd": 8497.3408203125,
+   "in_usd": 4151.2958984375,
+   "out_deg": 160.0,
+   "in_deg": 86.0,
+   "active_span_h": 164.40444946289062,
+   "pass_through": 0.48854056000709534,
+   "one_use_sender_frac": 0.9767441749572754,
+   "hub_likeness": 28.14412498474121
+  },
+  "destination_summary": {
+   "out_tx": 80.0,
+   "in_tx": 70.0,
+   "out_usd": 13416.767578125,
+   "in_usd": 11775.1884765625,
+   "out_deg": 52.0,
+   "in_deg": 46.0,
+   "active_span_h": 161.85110473632812,
+   "pass_through": 0.8776472210884094,
+   "one_use_sender_frac": 0.695652186870575,
+   "hub_likeness": 23.402193069458008
+  },
+  "model_version": "lgbm_final + optional gnn blend (see artifacts/manifest.json)",
+  "status": "flagged for review (synthetic data; no identity or criminality is asserted)",
+  "label": {
+   "is_suspicious": 0,
+   "family": "background",
+   "difficulty": "normal"
+  }
+ }
+]

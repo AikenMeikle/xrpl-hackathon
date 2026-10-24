@@ -1,0 +1,132 @@
+{
+  "python": "3.13.12 | packaged by Anaconda, Inc. | (main, Feb 24 2026, 16:05:56) [MSC v.1942 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "git_commit": "5a2d97935bd42723b23ef08e3495ba5e820485ea",
+  "seed": 42,
+  "versions": {
+    "lightgbm": "4.7.0",
+    "sklearn": "1.9.0",
+    "numpy": "2.5.1",
+    "pandas": "2.3.3",
+    "torch": "2.14.1+cpu"
+  },
+  "input_checksums": {
+    "C:\\Users\\anass\\OneDrive\\Desktop\\xrpl-hackathon\\data\\decode-and-detect-training-data\\train\\transactions.parquet": "d592b91c766a408fb7da5c54c04f36f358dcf137ba6ef870575f22e0900ff783",
+    "C:\\Users\\anass\\OneDrive\\Desktop\\xrpl-hackathon\\data\\decode-and-detect-training-data\\train\\transfers.parquet": "658bbb2d4b3bc7724dbcc7e8ad4b80d344b01fcc2ce4875b75880fa065c39c18",
+    "C:\\Users\\anass\\OneDrive\\Desktop\\xrpl-hackathon\\data\\decode-and-detect-training-data\\train\\market_rates.csv": "cf596d85265294c9faa9bd707739c14d4e11d20a6e3ce4e3b507488c79ed6458",
+    "C:\\Users\\anass\\OneDrive\\Desktop\\xrpl-hackathon\\data\\decode-and-detect-training-data\\train\\labels.csv": "48536b768622b0dc61ee487f750c874f1d9dbc820fc1c30ccc1af87db395a94b",
+    "C:\\Users\\anass\\OneDrive\\Desktop\\xrpl-hackathon\\data\\test-data\\transactions.parquet": "2196aadaa7cc7f1c095551aa30156aff069784d8428060d0474c50dc83cf8863",
+    "C:\\Users\\anass\\OneDrive\\Desktop\\xrpl-hackathon\\data\\test-data\\transfers.parquet": "61e922d367ed4809a978807014ce0aeeedf9f1cefe920a4266b957d8bfc31412",
+    "C:\\Users\\anass\\OneDrive\\Desktop\\xrpl-hackathon\\data\\test-data\\market_rates.csv": "fa03c4682da2bf9ba6574811017fd7f49f20b4e3a79d0e4b96ef8fb8a957e559"
+  },
+  "commands": [
+    "python run.py inspect",
+    "python run.py baseline",
+    "python run.py features",
+    "python run.py validate",
+    "python run.py train --final",
+    "python run.py predict --output submission/predictions.csv",
+    "python run.py verify --file submission/predictions.csv"
+  ],
+  "n_features": 501,
+  "lgbm_n_estimators": 1347,
+  "scale_pos_weight": 3.0,
+  "gnn_weight": 0.0,
+  "gnn": null,
+  "validation_summary": {
+    "lgbm_blocked": {
+      "ap": 0.683914408187602,
+      "ap100": 68.3914408187602,
+      "roc_auc": 0.9670872868496181,
+      "n": 40131,
+      "positives": 1250,
+      "precision_at_1pct": 0.8379052369077307,
+      "recall_at_1pct": 0.2688,
+      "recall_at_1pct_easy": 0.37,
+      "n_pos_easy": 800,
+      "recall_at_1pct_hard": 0.0044444444444444444,
+      "n_pos_hard": 225,
+      "recall_at_1pct_medium": 0.17333333333333334,
+      "n_pos_medium": 225,
+      "fold_ap": [
+        0.7066278910391182,
+        0.7446367261197548,
+        0.6384973296918433
+      ],
+      "std_ap": 0.04390901756000468,
+      "best_iterations": [
+        1146,
+        1949,
+        1347
+      ],
+      "scale_pos_weight": 3.0
+    },
+    "gnn_blocked": {
+      "ap": 0.5452529387392189,
+      "ap100": 54.52529387392189,
+      "roc_auc": 0.905825683495795,
+      "n": 40131,
+      "positives": 1250,
+      "precision_at_1pct": 0.827930174563591,
+      "recall_at_1pct": 0.2656,
+      "recall_at_1pct_easy": 0.38625,
+      "n_pos_easy": 800,
+      "recall_at_1pct_hard": 0.0,
+      "n_pos_hard": 225,
+      "recall_at_1pct_medium": 0.10222222222222223,
+      "n_pos_medium": 225,
+      "fold_ap": [
+        0.559457165208769,
+        0.5856341482226461,
+        0.5237738296111829
+      ],
+      "best_epochs": [
+        49,
+        54,
+        39
+      ],
+      "device": "cpu",
+      "n_params": 160193,
+      "gpu": {
+        "torch": "2.14.1+cpu",
+        "cuda_build": null,
+        "cuda_available": false
+      }
+    },
+    "blends": {
+      "0.0": {
+        "ap": 0.683914408187602,
+        "fold_ap": [
+          0.7066278910391182,
+          0.7446367261197548,
+          0.6384973296918433
+        ]
+      },
+      "0.15": {
+        "ap": 0.6612301890218519,
+        "fold_ap": [
+          0.6856165365679864,
+          0.717506324172985,
+          0.6154812573894006
+        ]
+      },
+      "0.3": {
+        "ap": 0.6438982334929559,
+        "fold_ap": [
+          0.6655162193584512,
+          0.6956833322997623,
+          0.6019221583771256
+        ]
+      },
+      "0.5": {
+        "ap": 0.623829561606377,
+        "fold_ap": [
+          0.6417762225469252,
+          0.6712992026387147,
+          0.5881322923901001
+        ]
+      }
+    },
+    "chosen_blend_ap": 0.683914408187602
+  }
+}

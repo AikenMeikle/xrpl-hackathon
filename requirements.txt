@@ -1,5 +1,14 @@
-pandas
-pyarrow
-scikit-learn
-numpy
+# Python 3.13.12 (tested). Versions below are the ones the submission was produced with.
+numpy==2.5.1
+pandas==2.3.3
+pyarrow==24.0.0
+scikit-learn==1.9.0
+scipy==1.18.0
+lightgbm==4.7.0
+networkx==3.6.1
+joblib>=1.4
+pytest==9.1.1
+# GNN experiment (CPU build is sufficient; CUDA optional)
+torch==2.14.1
+# only for the organiser starter notebook
 jupyter
