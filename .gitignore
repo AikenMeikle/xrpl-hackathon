@@ -218,3 +218,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Datasets and generated scores. Leave these out of git and the submission ZIP.
+data/
+*.parquet
+predictions.csv
