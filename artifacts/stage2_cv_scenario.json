@@ -1,0 +1,44 @@
+{
+  "protocol": "scenario",
+  "drop_time": true,
+  "stage1": {
+    "ap": 0.5076844617511865,
+    "ap100": 50.768446175118655,
+    "roc_auc": 0.8700195776857592,
+    "n": 40131,
+    "positives": 1250,
+    "precision_at_1pct": 0.7855361596009975,
+    "recall_at_1pct": 0.252,
+    "recall_at_1pct_easy": 0.37625,
+    "n_pos_easy": 800,
+    "recall_at_1pct_hard": 0.0,
+    "n_pos_hard": 225,
+    "recall_at_1pct_medium": 0.06222222222222222,
+    "n_pos_medium": 225
+  },
+  "stage2": {
+    "ap": 0.5318826825446972,
+    "ap100": 53.18826825446972,
+    "roc_auc": 0.8818453434839638,
+    "n": 40131,
+    "positives": 1250,
+    "precision_at_1pct": 0.7780548628428927,
+    "recall_at_1pct": 0.2496,
+    "recall_at_1pct_easy": 0.3725,
+    "n_pos_easy": 800,
+    "recall_at_1pct_hard": 0.0,
+    "n_pos_hard": 225,
+    "recall_at_1pct_medium": 0.06222222222222222,
+    "n_pos_medium": 225
+  },
+  "stage1_fold_ap": [
+    0.5574036632390352,
+    0.4971940900616354,
+    0.5497707556284409
+  ],
+  "stage2_fold_ap": [
+    0.6020862228875662,
+    0.5087544470241971,
+    0.5770116200853139
+  ]
+}

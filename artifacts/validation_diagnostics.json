@@ -1,0 +1,29 @@
+{
+  "lgbm_time_holdout_last2d": {
+    "ap": 0.6104414204435751,
+    "n_val": 12002,
+    "n_pos_val": 428,
+    "note": "features use the full window; stress test, not an as-of proxy"
+  },
+  "lgbm_asof_only": {
+    "mean_ap": 0.3956683459844624,
+    "n_features": 112
+  },
+  "lgbm_random_split": {
+    "mean_ap": 0.8310841514063302,
+    "fold_ap": [
+      0.8447304291809447,
+      0.8089856275410252,
+      0.8395363974970202
+    ]
+  },
+  "lgbm_scenario_grouped": {
+    "mean_ap": 0.5375667519915356,
+    "fold_ap": [
+      0.5596503702405853,
+      0.4790116170745686,
+      0.5740382686594528
+    ],
+    "note": "scenario_id used for fold assignment only"
+  }
+}

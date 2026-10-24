@@ -1,1 +1,42 @@
-Paste AI promts here
+AI prompts used for this entry (Cursor, Claude with extended thinking; Plan mode then Build mode).
+
+=== Main build prompt (condensed; section headings and all constraints preserved) ===
+
+Role: principal ML engineer / graph-learning specialist / XRPL data engineer. Deliver an end-to-end, runnable,
+reproducible transaction-level laundering ranking pipeline for "Decode & Detect: The XRPL AI Hack" by 16:30 London
+time, 24 Oct 2026. Two stages: (A) in Plan mode read the repository, data and docs and produce an ordered plan with
+files, commands, time boxes, tests, risks, fallbacks; (B) after approval execute it. Optimise sklearn average
+precision over all transactions. Output CSV with headers TRANSACTION_HASH,score, all 40,101 test hashes once, finite
+floats in [0,1], no ties from rounding. Recommended model: regularised LightGBM on basic/wallet/temporal/
+value-conservation/eight-motif features plus a small directed edge-aware two-layer GraphSAGE in native PyTorch; blend
+only if group-held-out OOF AP supports it.
+
+1. Inspect the real package first (README, payments.py, baseline/starter, Parquet schemas, JSON columns, leg
+   ordering, blocks, hourly rates, labels); never guess fields; produce an inspection report; run the organiser
+   baseline as the first milestone.
+2. XRPL semantics: drops/1e6 for XRP only; asset = issuer+symbol; SendMax/Amount/DeliverMax are ceilings, use
+   delivered_amount and the first leg; one economic edge per conversion, legs kept for audit; fees burned, not
+   recipients; failed tx still scored; UTC times and ledger ordering; hourly USD rate of the exact asset, no zero
+   fill, no future leak; synthetic data only; labels only in fitting/evaluation; no identity features.
+3. Project structure and CLI: run.py inspect|baseline|features|validate|train --final|predict|verify|all; canonical
+   tables, manifest with checksums/versions/commit/seeds.
+4. Two graph views (economic payments vs legs), sorted adjacency, static views, dust threshold.
+5. Transaction and wallet features over 10m/1h/6h/24h/7d windows, as-of vs full-window naming, neighbour aggregates.
+6. Value-aware temporal matching engine with quality exp(-|log(out/in)|/0.20), batch-aware matching, witnesses.
+7. Eight typology detectors (fan-in, fan-out, scatter-gather, gather-scatter, cycle, layered stack, bipartite,
+   irregular) with counts, best quality, lags, USD scale, size, witness hashes, attached to the particular edge.
+8. LightGBM first (lr 0.035, 31 leaves, min_child 60, lambda 5, colsample 0.85, 2500 trees, ES 100, seed 42),
+   ablation ledger, gain importance.
+9. DirectedEdgeGraphSAGE in native torch (index_add_, degree normalisation, residual/LayerNorm/GELU/dropout, edge
+   MLP 128->64->1, BCEWithLogits, AdamW, early stopping on AP, CPU fallback; GPU check for RTX 5070).
+10. Validation: graph-group-blocked 3-fold AP from unlabelled structure; diagnostics: random, time holdout, as-of;
+    leakage guards.
+11. OOF-AP-selected blend with GNN weights 0/0.15/0.30/0.50; final refit on all labels.
+12. Explainability: witnesses, feature dictionary, TreeSHAP, per-alert evidence, case studies, METHODOLOGY.md,
+    AI_USAGE.md, limitations.
+13. Pytest fixtures for XRPL semantics and all eight shapes plus look-alikes and pipeline contracts.
+14. Runtime budget, bounded searches, milestone priorities, 45-minute packaging reserve.
+15. Submission format, code ZIP <= 8 MiB, PASS/FAIL table with measured numbers; never fabricate results.
+
+=== Follow-up prompts ===
+- "Implement the plan as specified ... Mark to-dos in_progress as you work ... don't stop until all are complete."

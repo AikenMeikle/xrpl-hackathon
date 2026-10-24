@@ -1,0 +1,16 @@
+{
+  "random_holdout_ap": 0.24567638296775274,
+  "rows": 40101,
+  "output": "C:\\Users\\anass\\OneDrive\\Desktop\\xrpl-hackathon\\submission\\baseline_predictions.csv",
+  "verify": {
+    "file": "C:\\Users\\anass\\OneDrive\\Desktop\\xrpl-hackathon\\submission\\baseline_predictions.csv",
+    "rows": 40101,
+    "bytes": 3250726,
+    "unique_scores": 40101,
+    "min": 0.0022788069445,
+    "max": 0.998757486478,
+    "tie_fraction": 0.0,
+    "ok": true,
+    "problems": []
+  }
+}

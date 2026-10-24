@@ -1,0 +1,34 @@
+{
+  "gnn_blocked": {
+    "ap": 0.5452529387392189,
+    "ap100": 54.52529387392189,
+    "roc_auc": 0.905825683495795,
+    "n": 40131,
+    "positives": 1250,
+    "precision_at_1pct": 0.827930174563591,
+    "recall_at_1pct": 0.2656,
+    "recall_at_1pct_easy": 0.38625,
+    "n_pos_easy": 800,
+    "recall_at_1pct_hard": 0.0,
+    "n_pos_hard": 225,
+    "recall_at_1pct_medium": 0.10222222222222223,
+    "n_pos_medium": 225,
+    "fold_ap": [
+      0.559457165208769,
+      0.5856341482226461,
+      0.5237738296111829
+    ],
+    "best_epochs": [
+      49,
+      54,
+      39
+    ],
+    "device": "cpu",
+    "n_params": 160193,
+    "gpu": {
+      "torch": "2.14.1+cpu",
+      "cuda_build": null,
+      "cuda_available": false
+    }
+  }
+}
